@@ -3,7 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HayfordTechnologies", "HayfordTechnologies\HayfordTechnologies.csproj", "{D83207F1-9D72-4539-8B97-78AB829E61D5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HayfordTechnologies.Web", "HayfordTechnologies\HayfordTechnologies.Web.csproj", "{D83207F1-9D72-4539-8B97-78AB829E61D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HayfordTechnologies.Web.Test", "HayfordTechnologies.Web.Test\HayfordTechnologies.Web.Test.csproj", "{87E74E09-8AE7-4CAE-8B8D-CDF1D3BF3D96}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HayfordTechnologies.Integration.Test", "HayfordTechnologies.Integration.Test\HayfordTechnologies.Integration.Test.csproj", "{5BED5100-C218-411A-936A-A4EC86248DEB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HayfordTechnologies.Data", "HayfordTechnologies.Data\HayfordTechnologies.Data.csproj", "{E7275D03-CCA9-4B38-8DC1-BA1B1C658934}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HayfordTechnologies.Data.Test", "HayfordTechnologies.Data.Test\HayfordTechnologies.Data.Test.csproj", "{63931D89-604C-4D31-AD23-069E0D778AF9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HayfordTechnologies.Integration", "HayfordTechnologies.Integration\HayfordTechnologies.Integration.csproj", "{80562F2D-6F02-42B3-9BC8-54FFA3A27354}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +25,26 @@ Global
 		{D83207F1-9D72-4539-8B97-78AB829E61D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D83207F1-9D72-4539-8B97-78AB829E61D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D83207F1-9D72-4539-8B97-78AB829E61D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87E74E09-8AE7-4CAE-8B8D-CDF1D3BF3D96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87E74E09-8AE7-4CAE-8B8D-CDF1D3BF3D96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87E74E09-8AE7-4CAE-8B8D-CDF1D3BF3D96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87E74E09-8AE7-4CAE-8B8D-CDF1D3BF3D96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BED5100-C218-411A-936A-A4EC86248DEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BED5100-C218-411A-936A-A4EC86248DEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BED5100-C218-411A-936A-A4EC86248DEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BED5100-C218-411A-936A-A4EC86248DEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7275D03-CCA9-4B38-8DC1-BA1B1C658934}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7275D03-CCA9-4B38-8DC1-BA1B1C658934}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7275D03-CCA9-4B38-8DC1-BA1B1C658934}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7275D03-CCA9-4B38-8DC1-BA1B1C658934}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63931D89-604C-4D31-AD23-069E0D778AF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63931D89-604C-4D31-AD23-069E0D778AF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63931D89-604C-4D31-AD23-069E0D778AF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63931D89-604C-4D31-AD23-069E0D778AF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80562F2D-6F02-42B3-9BC8-54FFA3A27354}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80562F2D-6F02-42B3-9BC8-54FFA3A27354}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80562F2D-6F02-42B3-9BC8-54FFA3A27354}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80562F2D-6F02-42B3-9BC8-54FFA3A27354}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
